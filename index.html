@@ -1,35 +1,4 @@
-@keyframes float {
-            0%, 100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-
-        /* Floating elements */
-        .floating-element {
-            position: absolute;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        .floating-1 {
-            top: 20%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .floating-2 {
-            top: 60%;
-            right: 15%;
-            animation-delay: 1s;
-        }
-
-        .floating-3 {
-            bottom: 30%;
-            left: 20%;
-            animation-delay: 2s;
-        }<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -610,6 +579,38 @@
         .fade-in.visible {
             opacity: 1;
             transform: translateY(0);
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        /* Floating elements */
+        .floating-element {
+            position: absolute;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .floating-1 {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+
+        .floating-2 {
+            top: 60%;
+            right: 15%;
+            animation-delay: 1s;
+        }
+
+        .floating-3 {
+            bottom: 30%;
+            left: 20%;
+            animation-delay: 2s;
         }
     </style>
 </head>
